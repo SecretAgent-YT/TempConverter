@@ -1,0 +1,45 @@
+ClrHome
+Disp "1 K TO F"
+Disp "2 F TO K"
+Disp "3 C TO F"
+Disp "4 F TO C"
+Disp "5 K TO C"
+Disp "6 C TO K"
+Disp "7 CREDITS"
+Disp "SELECT MODE"
+Prompt M
+If M=1
+Then
+Prompt K
+Disp (K-273.15)*(9/5)+32
+End
+If M=2
+Then
+Prompt F
+Disp (F-32)*(5/9)+273.15
+End
+If M=3
+Then
+Prompt C
+Disp C*(9/5)+32
+End
+If M=4
+Then
+Prompt F
+Disp (F-32)/1.8
+End
+If M=5
+Then
+Prompt K
+Disp (K-273.15)*(9/5)+32
+End
+If M=6
+Then
+Prompt C
+Disp C+273.15
+End
+If M=7
+Then
+Disp "CREATED BY"
+Disp "SECRETAGENT"
+End
